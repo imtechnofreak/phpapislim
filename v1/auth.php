@@ -73,7 +73,7 @@ function king_time($a) {
 
 function sms_send($mobileNumber,$message1)
 {
-    $authKey = "104746AQIaV9JTT056c2ffc5";
+    $authKey = "#";
     //$mobileNumber = "9999999";
     $senderId = "MotorB";
     $message = urlencode($message1);
